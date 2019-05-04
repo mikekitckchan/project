@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# 在Pythonanywhere上架設Flask + Fullcalendar.js 的個人記事日曆Web App
 
-You can use the [editor on GitHub](https://github.com/mikekitckchan/project/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## 1. 前言 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+本次系列主要為一個在pythonanywhere以Flask為後台框架、bootstrap和fullcalendar.js為前台框架來架設一個個人記事日曆Web App。在動手建立之前，我們先構思一下項目需要的功能，本次項目的功能大約如下：
 
-### Markdown
+1. 建立一個登記和登入的管理系統；
+2. 用家登入後可以增加或刪減其個人事項；
+3. 一個只顯示用家個人事項的日曆介面。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+在擬定
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## 2. pythonanywhere介紹
 
-1. Numbered
-2. List
+本次教程將會在Pythonanywhere上deploy，Pythonanywhere是一個Python friendly的網上寄存平台，且非常易用，故很適合新手試一下在網上寄存自己的網站。
 
-**Bold** and _Italic_ and `Code` text
+### 2.1 在Pythonanywhere上建立第一個webapp
 
-[Link](url) and ![Image](src)
-```
+在Pythonanywhere上寄存之前，先到其主網站：https://www.pythonanywhere.com/ 註冊一個屬於自己的帳號。如果是第一次用的話，註冊其免費的初學者帳號就行。註冊的程序非常簡便，只需要跟著其指示做就行。註冊完成後，登入自己的帳號，在右上角點web的按鈕，便會看到以下版面：
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![image-20190501121417497](/Users/mikechan/Library/Application Support/typora-user-images/image-20190501121417497.png)
 
-### Jekyll Themes
+按下左手邊Add a new web app 按鈕， 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mikekitckchan/project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 
